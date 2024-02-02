@@ -16,6 +16,9 @@ class Todo(db.Model):
         return '<Task %r>' % self.id
 
 
+###!!! run the below two lines of code at start of application to create db
+###!!! and then comment them out
+
 # with app.app_context():
 #    db.create_all()
 
